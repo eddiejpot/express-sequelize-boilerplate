@@ -2,9 +2,13 @@ import cookieParser from 'cookie-parser';
 import express from 'express';
 import methodOverride from 'method-override';
 import cors from 'cors';
+
+// import routes
 import apiRoutes from './src/routes/api.mjs';
 
-const FRONTEND_URL = process.env.FRONTEND_URL || ['http://localhost:3000', 'http://localhost:3001'];
+// insert your own local url here when testing
+const TEST_LOCAL_FRONTEND_URL = ['http://localhost:3000', 'http://localhost:3001']
+const FRONTEND_URL = process.env.FRONTEND_URL || TEST_LOCAL_FRONTEND_URL;
 
 // Initialise Express instance
 const app = express();
