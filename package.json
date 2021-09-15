@@ -1,5 +1,5 @@
 {
-  "name": "rocket-tea-backend",
+  "name": "boilerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.mjs",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jokatty/rocket-tea-backend.git"
+    "url": "git+https://github.com/eddiejpot/express-sequelize-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jokatty/rocket-tea-backend/issues"
+    "url": "https://github.com/eddiejpot/express-sequelize-boilerplate/issues"
   },
-  "homepage": "https://github.com/jokatty/rocket-tea-backend#readme",
+  "homepage": "https://github.com/eddiejpot/express-sequelize-boilerplate#readme",
   "devDependencies": {
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
