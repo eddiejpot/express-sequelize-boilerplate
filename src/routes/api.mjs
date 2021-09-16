@@ -1,5 +1,5 @@
 import { resolve } from 'path';
-import db from './models/index.mjs';
+import db from '../models/index.mjs';
 
 // ========================================================== IMPORT CONTROLLERS
 import initExampleController from './controllers/exampleController.mjs';
