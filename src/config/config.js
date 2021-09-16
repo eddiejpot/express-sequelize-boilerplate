@@ -1,7 +1,6 @@
 module.exports = {
   development: {
     username: '<DATABASE-USERAME>',
-    // username: 'jyotikattani',
     password: null,
     database: '<DATABASE-NAME>',
     host: '127.0.0.1',
