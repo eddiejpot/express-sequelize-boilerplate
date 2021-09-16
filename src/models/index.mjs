@@ -38,15 +38,15 @@ if (env === 'production') {
 //===============================
 // Initialize models
 //===============================
-db.exampleOne = exampleModelOne(sequelize, Sequelize.DataTypes);
-db.exampleTwo = exampleModelTwo(sequelize, Sequelize.DataTypes);
+db.ExampleOne = exampleModelOne(sequelize, Sequelize.DataTypes);
+db.ExampleTwo = exampleModelTwo(sequelize, Sequelize.DataTypes);
 
 //===============================
 // Define all relationships here
 //===============================
 // E.g. 1-M associations between orders table and associated tables
-db.exampleModelOne.hasMany(db.exampleModelTwo);
-db.exampleModelTwo.belongsTo(db.exampleModelOne);
+db.ExampleOne.hasMany(db.ExampleTwo);
+db.ExampleOne.belongsTo(db.ExampleTwo);
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

@@ -1,7 +1,7 @@
 export default function initExampleController(db) {
   const index = async (request, response) => {
     try {
-      const items = await db.Item.findAll();
+      const items = await db.ExampleOne.findAll();
       console.log(items);
       response.send({ items });
     } catch (error) {
@@ -12,7 +12,7 @@ export default function initExampleController(db) {
   const find = async (request, response) => {
     const { id } = request.params;
     try {
-      const item = await db.Item.findByPk(id);
+      const item = await db.ExampleOne.findByPk(id);
       console.log(item);
       response.send({ item });
     } catch (error) {
